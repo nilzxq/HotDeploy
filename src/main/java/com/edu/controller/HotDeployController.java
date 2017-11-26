@@ -2,6 +2,7 @@ package com.edu.controller;
 
 import javax.servlet.http.HttpServletRequest;
 
+import org.springframework.boot.web.support.SpringBootServletInitializer;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -13,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 * @date 2017年11月26日 下午8:16:49 
 */
 @Controller
-public class HotDeployController {
+public class HotDeployController{
 
 	@RequestMapping(value="/say",method=RequestMethod.GET)
 	public String say(HttpServletRequest request) {
