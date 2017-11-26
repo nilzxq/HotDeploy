@@ -17,7 +17,7 @@ public class HotDeployController {
 
 	@RequestMapping(value="/say",method=RequestMethod.GET)
 	public String say(HttpServletRequest request) {
-		request.setAttribute("say","Hello world,I am learning spring boot!");
+		request.setAttribute("say","Hello world,I love spring boot!");
 		return "world";
 	}
 }
